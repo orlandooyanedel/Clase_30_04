@@ -63,9 +63,6 @@ SKIN: https://bootsnipp.com/snippets/2X0r
                                     <div class="col-sm-12 controls">
                                       <a id="btn-login" href="javascript:loginform.submit();" class="btn btn-success">Acceder  </a>
                                     </div>
-                                    <div class="col-sm-12 controls">
-                                      <a id="btn-cerra-sesion" href=URLBASE."/CerrarSesion.php/" class="btn btn-success">Cerrar Sesión  </a>
-                                    </div>
                                 </div>
 
 
