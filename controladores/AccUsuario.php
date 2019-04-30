@@ -9,7 +9,7 @@ include ("../lib/db.php");
  * and open the template in the editor.
  */
 if (!isset($_SESSION["Usuario"]) && !isset($_POST["usuario"])){
-    header("location:".URLBASE);
+    header("location:".URLBASE."controladores.AcctUsuario.php");
     exit;
 }
     
