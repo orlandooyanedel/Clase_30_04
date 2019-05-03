@@ -134,7 +134,7 @@ function getNomarchivo() {
         }
         
         $PDOst=$dblink->prepare('update usuario
-                                 set nomarchivo=?,archivo=?
+                                 set nomarchivo=?,archivo=?,nombre=?,nomusu=?,clave=?,compania=?, email=?
                                  where idusuario=?');
         echo $this->id;
         $PDOst->execute(array($this->nomarchivo,$this->archivo,$this->id));
